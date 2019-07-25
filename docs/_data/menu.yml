@@ -1,5 +1,7 @@
-- title: Front page title
-  id: front-page
+- {page_id: front-page}
 
-- title: second title
-  id: second-id
+- title: Second item
+  subs:
+    - {page_id: important-page}
+    - {page_id: some-page}
+    - {page_id: other-page}
