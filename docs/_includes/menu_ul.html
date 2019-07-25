@@ -21,12 +21,12 @@
   {% else %}
     {% assign m_title = sub.title %}
     {% assign m_url = sub.url %}
-    {% assign m_external = '&nbsp;&nbsp;<i class="fa fa-angle-right"></i>' %}
+    {% assign m_external = ' >' %}
   {% endif %}
 
   <li class="menu-item {% if is_active %}active{% endif %}">
     <a title="{{m_title}}"
-       href="/pages_test/{{m_url}}">{{m_title}}{{m_external}}</a>
+       href="/pages_test{{m_url}}">{{m_title}}{{m_external}}</a>
   </li>
 {% endfor %}
 </ul>
