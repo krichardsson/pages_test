@@ -9,3 +9,5 @@ This is the important content
 {% sometag ‰}
 Text in the tag
 {% endsometag ‰}
+
+Text after the tag
