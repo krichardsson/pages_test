@@ -6,8 +6,8 @@ page_id: important-page
 
 This is the important content
 
-{% sometag ‰}
+{% sometag %}
 Text in the tag
-{% endsometag ‰}
+{% endsometag %}
 
 Text after the tag
